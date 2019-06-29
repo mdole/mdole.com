@@ -1,11 +1,16 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled from "styled-components"
 
+const HeaderLink = styled(Link)`
+  color: #000;
+  text-decoration: underline;
+`
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `white`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -20,13 +25,16 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            color: `black`,
+            textDecoration: `underline`,
           }}
         >
           {siteTitle}
         </Link>
       </h1>
+      <HeaderLink to="/code-poem/">code/poem</HeaderLink>
+      <br />
+      <HeaderLink to="/about/">about</HeaderLink>
     </div>
   </header>
 )

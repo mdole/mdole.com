@@ -1,16 +1,10 @@
 import React from "react"
-import styled from "styled-components"
-
-const Pre = styled.pre`
-  white-space: pre-wrap;
-  font-size: 12px;
-  line-height: 16px;
-`
+import { Pre } from "../../components/pre"
 
 export const morningCode = () => {
   return (
     <Pre>
-      <code>
+      <code class="language-javascript">
         {`const timeInHours = new Date().getHours()
 const timeInMinutes = new Date().getMinutes();
 const sleepInMs = ms => {
@@ -32,7 +26,7 @@ const getReady = time => {
       console.log("Check phone. Relocate to couch.")
       break
     default:
-      console.log("chill")
+      console.log("Hover anxiously")
   }
 }
 `}

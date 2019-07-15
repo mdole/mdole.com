@@ -1,13 +1,25 @@
 import React from "react"
 import styled from "styled-components"
-import { Box, Grid, Theme, injectGlobalStyles, Row, Col } from "@artsy/palette"
+import {
+  Box,
+  Grid,
+  Theme,
+  injectGlobalStyles,
+  Row,
+  Col,
+  Serif,
+} from "@artsy/palette"
 import SEO from "../components/seo"
-import { morningCode } from "../poems/code/morning"
-import { morningText } from "../poems/text/morning"
+import { morningCode } from "../poems/code/morning.jsx"
+import { morningText } from "../poems/text/morning.jsx"
 
-const { GlobalStyles } = injectGlobalStyles(``)
+const { GlobalStyles } = injectGlobalStyles(`
+  body {
+    background: #000;
+  }
+`)
+
 const StyledGrid = styled(Grid)`
-  background-color: #000;
   color: #fff;
 `
 
@@ -16,18 +28,24 @@ const CodePoem = () => (
     <>
       <GlobalStyles />
       <SEO title="CODE/POEM" />
-      <StyledGrid>
+      <StyledGrid fluid>
         <Row my={4}>
-          <Col>
-            <Box>CODE/POEM</Box>
+          <Col mx={2}>
+            <Box>
+              <Serif size={8}>CODE/POEM</Serif>
+            </Box>
           </Col>
         </Row>
         <Row my={2}>
-          <Col sm={6}>{morningCode()}</Col>
-          <Col sm={6}>{morningText()}</Col>
+          <Col sm={5} mx={2}>
+            <Serif size={4}>{morningCode()}</Serif>
+          </Col>
+          <Col sm={5} mx={2}>
+            <Serif size={4}>{morningText()}</Serif>
+          </Col>
         </Row>
         <Row my={4}>
-          <Col>
+          <Col mx={2}>
             <Box>
               This project was presented at the 2019 Artsy salon and was
               inspired by <a href="https://laiyiohlsen.com/">Lai Yi Ohlsen's</a>{" "}

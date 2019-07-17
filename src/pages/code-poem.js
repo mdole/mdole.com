@@ -10,8 +10,16 @@ import {
   Serif,
 } from "@artsy/palette"
 import SEO from "../components/seo"
-import { morningCode, newYorkCode } from "../poems/code/index.jsx"
-import { morningText, newYorkText } from "../poems/text/index.jsx"
+import {
+  morningCode,
+  newYorkCode,
+  salmonSeasonCode,
+} from "../poems/code/index.jsx"
+import {
+  morningText,
+  newYorkText,
+  salmonSeasonText,
+} from "../poems/text/index.jsx"
 
 const { GlobalStyles } = injectGlobalStyles(`
   body {
@@ -47,6 +55,20 @@ const CodePoem = () => (
           </Col>
           <Col sm={5} mx={2}>
             <Serif size={4}>{newYorkText()}</Serif>
+          </Col>
+        </Row>
+
+        <Row mt={4}>
+          <Col mx={2}>
+            <Serif size={6}>Salmon season</Serif>
+          </Col>
+        </Row>
+        <Row my={2}>
+          <Col sm={5} mx={2}>
+            <Serif size={4}>{salmonSeasonCode()}</Serif>
+          </Col>
+          <Col sm={5} mx={2}>
+            <Serif size={4}>{salmonSeasonText()}</Serif>
           </Col>
         </Row>
 

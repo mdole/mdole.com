@@ -7,17 +7,13 @@ export const morningText = () => {
       <br />
       overslept/underrested/trying to
       <br />
-      meditate, trying to get off my phone,
+      meditate, trying to get off my
       <br />
-      trying to get off
+      phone, off the couch and
       <br />
-      the couch before it absorbs my essence
+      into the shower which, some
       <br />
-      and leaves me a hopeful shell working
-      <br />
-      a normal job/leading a normal life/being normal
-      <br />
-      whatever that means to you
+      mornings, is enough to jump-start the day.
     </div>
   )
 }

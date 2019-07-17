@@ -3,17 +3,33 @@ import React from "react"
 export const morningText = () => {
   return (
     <div>
-      Anxiety and underwear my morningwear
+      The couch cushions are down-filled;
       <br />
-      overslept/underrested/trying to
+      it's West Elm (used, purchased via Craigslist
       <br />
-      meditate, trying to get off my
+      from a guy in a swanky Dumbo apartment and
       <br />
-      phone, off the couch and
+      hauled up the four flights of stairs to our
       <br />
-      into the shower which, some
+      apartment the day we moved in) and it must be
       <br />
-      mornings, is enough to jump-start the day.
+      at least 3 fathoms deep, the kind of couch
+      <br />
+      that, once sunk into, must be climbed out of
+      <br />
+      one limb at a time. This morning,
+      <br />
+      the couch refuses to relinquish my body.
+      <br />
+      It has designs on my day.
+      <br />
+      I had plans to meditate, to journal, to jog,
+      <br />
+      but this morning, it will be me,
+      <br />
+      some toast, my phone,
+      <br />
+      and the couch.
     </div>
   )
 }

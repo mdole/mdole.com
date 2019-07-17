@@ -3,31 +3,32 @@ import React from "react"
 export const newYorkText = () => {
   return (
     <div>
-      i never learned to write poems about new york
+      I never learned to write poems about New York.
       <br />
-      some people thrive in the big noise
+      Some people thrive in the big noise.
       <br />
-      i miss the cornfields of iowa and the lakes of minnesota
+      I miss the cornfields of Iowa and the lakes of Minnesota,
       <br />
-      stars through treetops, crickets at dusk
+      stars through treetops, crickets at dusk.
       <br />
-      the sirens do not sing to me here
+      The sirens do not sing to me here.
       <br />
-      the honking makes me miss hissing geese
+      The honking makes me miss hissing geese.
       <br />
-      i have traded the smells of fresh-cut grass
+      I have traded the smells of fresh-cut grass
       <br />
-      and damp earth for hot piss and spilled trash
+      and damp earth for hot piss and spilled
       <br />
-      traded blue jays and robins for
+      trash, traded blue jays and robins for
       <br />
       rats, roaches, and other megavarmints
       <br />
-      but: where else do you eat like this?
       <br />
-      where else do you build these stories?
+      But: where else do you eat like this?
       <br />
-      where else do you see yourself?
+      Where else do you build these stories?
+      <br />
+      Where else do you see yourself?
     </div>
   )
 }

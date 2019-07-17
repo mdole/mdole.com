@@ -27,7 +27,7 @@ const smells = {
   street: ["garbage", "urine", "pizza", "diesel", "weed"],
   park: ["sweat", "grass", "weed", "flowers"],
   rideShare: ["too many air fresheners"],
-  office: ["coffee", "donuts", "my deoderant", "microwaved fish"],
+  office: ["coffee", "my deoderant", "microwaved fish"]
 }
 
 const sounds = {
@@ -44,8 +44,8 @@ const sounds = {
     "engineer on a call",
     "team standup",
     "keyboard clacking",
-    "music accidentally played through monitor",
-  ],
+    "music accidentally played through monitor"
+  ]
 }
                 
                 `}

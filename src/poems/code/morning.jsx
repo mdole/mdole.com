@@ -8,7 +8,7 @@ export const morningCode = () => {
         {`const routine = time => {
   switch (time) {
     case 7:00: Wake up, check phone
-    case 7:05: Return to couch
+    case 7:05: Move to couch
     case 7:15: Think about doing physical therapy exercises
     case 7:20: Decide to do half of the exercises
     case 7:30: Feel like you should be working on code, return to couch instead

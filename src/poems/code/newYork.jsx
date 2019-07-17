@@ -1,9 +1,13 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Pre } from "../../components/pre"
 import Prism from "prismjs"
 import "./syntax-highlighting/prism.css"
 
 export const newYorkCode = () => {
+  const [highlight, setHighlight] = useState()
+  useEffect(() => {
+    Prism.highlightAll()
+  })
   return (
     <Pre>
       <code className="language-javascript">
